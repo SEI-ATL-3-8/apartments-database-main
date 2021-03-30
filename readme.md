@@ -52,8 +52,9 @@ To get a clue on the syntax, look into "sql add column to table".
 
 <details>
   <summary>What sql command creates the column?</summary>
-  ALTER TABLE properties
-  ADD owner_id int;
+ 
+  <p> ```ALTER TABLE properties
+    ADD ownerId int;```</p>
 </details>
 
 ### Part 3: Insert Data
@@ -80,12 +81,12 @@ This will get confused as to whether you're asking for the name of the owners or
 ```sql
 SELECT name FROM owners
   JOIN properties
-  ON owners.id = properties.owners_id
+  ON owners.id = properties.ownerId
 ```
 
 But this will be interpreted unambiguously:
 ```sql
 SELECT owners.name FROM owners
   JOIN properties
-  ON owners.id = properties.owners_id
+  ON owners.id = properties.ownerId
 ```
