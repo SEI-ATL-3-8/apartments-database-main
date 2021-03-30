@@ -53,8 +53,8 @@ To get a clue on the syntax, look into "sql add column to table".
 <details>
   <summary>What sql command creates the column?</summary>
  
-  <p> ```ALTER TABLE properties
-    ADD ownerId int;```</p>
+  <p> ALTER TABLE properties
+    ADD ownerId int;</p>
 </details>
 
 ### Part 3: Insert Data
