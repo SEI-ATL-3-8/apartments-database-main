@@ -1,7 +1,7 @@
 # Apartment Database  
 ### Getting started
 
-* Clone this as normal
+* Clone this and checkout to a new branch as normal
 * Each part has a corresponding `.sql` file for you to do your work in. 
 * Add, commit, and push your changes when you finish each part
 * Make a pull request!
