@@ -80,12 +80,12 @@ This will get confused as to whether you're asking for the name of the owners or
 ```sql
 SELECT name FROM owners
   JOIN properties
-  ON owner.id = property.owner_id
+  ON owners.id = properties.owners_id
 ```
 
 But this will be interpreted unambiguously:
 ```sql
 SELECT owners.name FROM owners
   JOIN properties
-  ON owner.id = property.owner_id
+  ON owners.id = properties.owners_id
 ```
